@@ -9,11 +9,11 @@ data class Users(
     @PrimaryKey(autoGenerate = true)
     val id: Int? = 0,
 
-    @ColumnInfo(name = "name")
-    val name: String,
-
     @ColumnInfo(name = "login")
     val login: String,
+
+    @ColumnInfo(name = "name")
+    val name: String,
 
     @ColumnInfo(name = "numberOfGames")
     val numberOfGames: Int = 0,

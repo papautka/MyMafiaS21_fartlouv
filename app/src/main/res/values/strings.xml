@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">MyMafiaS21_fartlouv</string>
+    <string name="s21_login">S21:login:</string>
+    <string name="s21_name">Ваше имя:</string>
+    <string name="text_for_button_save_new_player">Сохранить нового игрока</string>
 </resources>

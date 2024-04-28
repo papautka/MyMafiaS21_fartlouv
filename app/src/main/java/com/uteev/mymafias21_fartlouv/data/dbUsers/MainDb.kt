@@ -1,9 +1,12 @@
 package com.uteev.mymafias21_fartlouv.data.dbUsers
 
 import android.content.Context
+import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.uteev.mymafias21_fartlouv.domain.Users
 
+@Database(entities = [Users::class], version = MainDb.DB_VERSION)
 abstract class MainDb : RoomDatabase() {
 
     abstract fun daoOfUsers(): DaoOfUsers
